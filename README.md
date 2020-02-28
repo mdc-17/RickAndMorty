@@ -21,7 +21,7 @@ Wiki-RickAndMorty es una pagina interactiva donde aquellos fans de la serie pued
    -Quien tiene mas edad
    -En que episodio salen mas
 
-## Data structure
+## Data structure:
 Los datos de los usuarios se obtendrán del formulario de registro y el almacenamiento en el almacenamiento local. El formulario de inicio de sesión buscará información en el almacenamiento local que debe coincidir con la información que el usuario proporcionó en el formulario de inicio de sesión para iniciar sesión correctamente.
 
 
@@ -33,5 +33,15 @@ Los datos de los usuarios se obtendrán del formulario de registro y el almacena
 - (Opcional: Pagina por episodios)
 - (Opcional: Pagina de personajes)
 - (Muy opcional: juegos)
+
+## Trello
+
+https://trello.com/b/zJx2UVSu/proyecto-rick-and-morty
+
+## USER STORY:
+El usuario podra visitar la pagina principal donde obtendra una informacion basica de la serie y luego cuando pinche en el mapa interactivo, le obligara a loguearse.
+Cuando este logueado podra navegar por un mapa interactivo que le dira que personajes salen en los diferentes planetas, tambien habra una seccion donde esten repartidos por capitulos.
+
+
 
 
