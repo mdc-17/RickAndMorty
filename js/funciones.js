@@ -12,3 +12,6 @@ function barClicked() {
   bars.classList.toggle('active');
   nav.classList.toggle('visible');
 }
+
+// llamadas a la api
+
