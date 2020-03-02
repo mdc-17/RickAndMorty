@@ -619,9 +619,16 @@ h1.main, p.demos {
 	}
 }
 
-main {
-	display: flex;
-}
 .article-personajes {
-	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 20px;
+	text-decoration: underline white;
 }
