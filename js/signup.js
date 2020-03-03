@@ -1,3 +1,13 @@
+ //get a reference to the element
+ var actionSignUpButton = document.getElementById('sign-up-button');
+
+ //add event listener
+ actionSignUpButton.addEventListener('click', function(event) {
+   console.log("asda");
+   window.open('./signup.html', '_self');
+ });
+
+
 // SIGN UP
 
 let userName = document.getElementById("username");
