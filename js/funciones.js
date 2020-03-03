@@ -89,13 +89,11 @@ function personajes(data) {
 
 //planeta_ciudadela();
 
-//planeta_apocal();
-
-//planeta_tierra();
+planeta_tierra();
 
 // var clickTierra = document.getElementById("clickTierra");
 
-// clickTierra.addEventListener("click", planeta_tierra());
+// clickTierra.addEventListener('click', planeta_tierra());
 
 
 

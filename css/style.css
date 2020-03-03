@@ -209,12 +209,12 @@ nav.visible li:last-child a {
 /* Main Body CSS */
 
 .container {
-  height: 900px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url(/img/imagenmapaportada.jpg) no-repeat center center fixed;
+  background: url(/img/imagenmapaportada.jpg) no-repeat center center;
 }
 
 h1 {
@@ -284,8 +284,7 @@ h1.main, p.demos {
 	animation-delay: 18s;
 }
 .sp-container {
-  background-image: url(/img/imagenmapaportada.jpg);
-	position: fixed;
+  	position: fixed;
 	top: 200px;
 	left: 0px;
 	width: 100%;
@@ -295,15 +294,7 @@ h1.main, p.demos {
 	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 }
-.sp-content {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-  z-index: 1000;
-  background-image: url(/img/imagenmapaportada.jpg);
-}
+
 .sp-container h2 {
 	position: absolute;
 	top: 50%;
@@ -371,26 +362,7 @@ h1.main, p.demos {
 	-ms-animation-delay: 14s;
 	animation-delay: 14s;
 }
-.sp-globe {
-	position: absolute;
-	width: 282px;
-	height: 273px;
-	left: 50%;
-	top: 50%;
-	margin: -137px 0 0 -141px;
-	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
-	-moz-animation: fadeInBack 3.6s linear 14s backwards;
-	-ms-animation: fadeInBack 3.6s linear 14s backwards;
-	animation: fadeInBack 3.6s linear 14s backwards;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-	filter: alpha(opacity=30);
-	opacity: 0.3;
-	-webkit-transform: scale(5);
-	-moz-transform: scale(5);
-	-o-transform: scale(5);
-	-ms-transform: scale(5);
-	transform: scale(5);
-}
+
 .sp-circle-link {
   top: 50px;
 	position: absolute;
@@ -427,6 +399,7 @@ h1.main, p.demos {
 }
 
 #videolist {
+	flex-wrap: wrap;
 	display: inline-flex;
 	padding: 5px;
 	list-style: none;
