@@ -267,6 +267,7 @@ form {
 	border: none;
 	cursor: pointer;
 	width: auto;
+	font-size: 15px;
   }
   
   /* Add a hover effect for buttons */
@@ -296,7 +297,17 @@ form {
   /* Add padding to containers */
   .container-login {
 	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	padding: 16px;
+  }
+  .botones {
+    align-items: center;
+    width: auto;
+    flex: auto;
+    display: inline-grid;
+    justify-content: center;
   }
   
   /* The "Forgot password" text */
@@ -335,8 +346,6 @@ form {
 
 /* Modal Content/Box */
 .modal-content {
-background: image("img/planeta2.png");
-  background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
