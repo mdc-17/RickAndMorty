@@ -75,6 +75,14 @@ function planeta_anatomy() {
     .then(data => {
       personajes(data);})
 }
+
+
+function planeta_cable() {
+  fetch('https://rickandmortyapi.com/api/location/6/')
+    .then(response => response.json())
+    .then(data => {
+      personajes(data);})
+}
     
 function personajes(data) {  
   
