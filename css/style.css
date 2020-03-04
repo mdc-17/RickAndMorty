@@ -210,6 +210,7 @@ nav.visible li:last-child a {
 
 .container {
   height: 700px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,6 +244,57 @@ article a:hover {
 
 /* footer */
 
+.article-videos {
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+}
+
+.videos {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+#video-section {
+	justify-content: center;
+}
+
+
+#videolist {
+	flex-wrap: wrap;
+	display: inline-flex;
+	padding: 5px;
+	list-style: none;
+	margin: 5px; 
+	justify-content: center;
+   }
+   
+#video {
+	border: 2px;
+	border-style: solid;
+	border-color: white; 
+}
+   
+.music {
+	text-align: center;
+	padding: 5px;
+	margin: 5px 5px 10px 5px;
+	border: 2px;
+	border-style: solid;
+	border-color: white; 
+}
+
+.planetas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.ciudadela {
+	height: 400px;
+	width: 700px;
+}
 
 
 
@@ -283,21 +335,12 @@ h1.main, p.demos {
 	-ms-animation-delay: 18s;
 	animation-delay: 18s;
 }
-.sp-container {
-  	position: fixed;
-	top: 200px;
-	left: 0px;
-	width: 100%;
-  z-index: 0;
-	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-}
 
+.sp-container {
+	flex-direction: row;
+}
 .sp-container h2 {
 	position: absolute;
-	top: 50%;
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
@@ -364,7 +407,7 @@ h1.main, p.demos {
 }
 
 .sp-circle-link {
-  top: 50px;
+  	top: 200px;
 	position: absolute;
 	left: 50%;
 	margin-left: -50px;
@@ -393,44 +436,6 @@ h1.main, p.demos {
 	color: #fff;
 }
 
-.videos {
-	display: flex;
-	align-self: center;
-}
-
-#videolist {
-	flex-wrap: wrap;
-	display: inline-flex;
-	padding: 5px;
-	list-style: none;
-	margin: 5px; 
-   }
-   
-#video {
-	border: 2px;
-	border-style: solid;
-	border-color: white; 
-}
-   
-.music {
-	text-align: center;
-	padding: 5px;
-	margin: 5px 5px 10px 5px;
-	border: 2px;
-	border-style: solid;
-	border-color: white; 
-}
-
-.planetas {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.ciudadela {
-	height: 400px;
-	width: 700px;
-}
 /*footer*/
 
 

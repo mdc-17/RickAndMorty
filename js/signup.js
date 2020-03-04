@@ -1,11 +1,11 @@
- //get a reference to the element
- var actionSignUpButton = document.getElementById('sign-up-button');
+//  //get a reference to the element
+//  var actionSignUpButton = document.getElementById('new-sign-up-button');
 
- //add event listener
- actionSignUpButton.addEventListener('click', function(event) {
-   console.log("asda");
-   window.open('./signup.html', '_self');
- });
+//  //add event listener
+//  actionSignUpButton.addEventListener('click', function(event) {
+//   console.log("asda");
+//    window.open('./signup.html', '_self');
+//  });
 
 
 // SIGN UP
@@ -20,11 +20,11 @@ let form = document.getElementById("form");
 let formWrapper = document.getElementById("container-login");
 
 let logInButton = document.getElementById("log-in-button");
-let signUpButton = document.getElementById("signupbutton");
+let registrame = document.getElementById("registrame");
 
 let usersDB = JSON.parse(localStorage.getItem('users'))
 
-signUpButton.addEventListener("click", function(event){
+registrame.addEventListener("click", function(event){
   event.preventDefault();
   deleteErrors();
   

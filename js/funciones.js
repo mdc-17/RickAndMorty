@@ -15,6 +15,7 @@ function barClicked() {
 
 //Crea la estructura para cada personaje
 function creaPersonaje(personaje) {
+  console.log("personaje",personaje);
   let articlePersonajes = document.querySelector(".article-personajes");
   let divPersonaje = document.createElement("div");
   divPersonaje.innerHTML = `
@@ -48,36 +49,38 @@ function creaPersonaje(personaje) {
 
 // llamadas a la api
 
-function planeta_tierra () {
+function planeta_tierra() {
+  console.log('tierraaa');
   fetch('https://rickandmortyapi.com/api/location/20/')
     .then(response => response.json())
     .then(data => {
       personajes(data);})
 }
 
-function planeta_ciudadela () {
+function planeta_ciudadela() {
   fetch('https://rickandmortyapi.com/api/location/3/')
     .then(response => response.json())
     .then(data => {
       personajes(data);})
 }
 
-function planeta_apocal () {
+function planeta_apocal() {
   fetch('https://rickandmortyapi.com/api/location/8/')
     .then(response => response.json())
     .then(data => {
       personajes(data);})
 }
 
-function planeta_anatomy () {
+function planeta_anatomy() {
   fetch('https://rickandmortyapi.com/api/location/5/')
     .then(response => response.json())
     .then(data => {
       personajes(data);})
 }
     
-function personajes(data) {    
-    data.residents.forEach(element => {
+function personajes(data) {  
+  
+  data.residents.forEach(element => {
       fetch(element)
       .then(response => response.json())
       .then(personaje => 
@@ -89,12 +92,15 @@ function personajes(data) {
 
 //planeta_ciudadela();
 
-planeta_tierra();
+//planeta_tierra();
 
 // var clickTierra = document.getElementById("clickTierra");
 
-// clickTierra.addEventListener('click', planeta_tierra());
+// clickTierra.addEventListener('click', function(){
+//   window.open('./planetas.html', '_self');
+// });
 
+//clickTierra.onclick=planeta_tierra;
 
 
 
