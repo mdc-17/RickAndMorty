@@ -339,6 +339,7 @@ h1.main, p.demos {
 .sp-container {
 	flex-direction: row;
 }
+
 .sp-container h2 {
 	position: absolute;
 	line-height: 100px;

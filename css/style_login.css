@@ -267,7 +267,21 @@ p {
   }
   
   /* Set a style for all buttons */
+
+.abutton {
+border-color: white;
+border: 1px solid;
+text-align: center;
+text-decoration:none;
+font-weight:600;
+font-size:20px;
+color:#ffffff;
+padding: 7px;
+background-color:rgb(37, 187, 0);
+}
+
   button {
+	
 	background-color: #4CAF50;
 	color: white;
 	padding: 14px 20px;

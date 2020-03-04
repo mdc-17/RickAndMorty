@@ -79,3 +79,27 @@ function createUser (name, email, password) {
   }
   localStorage.setItem('users', JSON.stringify(usersDB));
 } 
+
+
+
+let nameLogin = document.getElementById("loginname");
+let pswLogin = document.getElementById("pswLogin");
+
+logInButton.addEventListener('click', function (event){
+  event.preventDefault();
+  
+    for (i = 0; i < usersDB.length; i++) {
+      if (pswLogin.value === usersDB[i].password && nameLogin.value === usersDB[i].email) {
+        createCurrentUser(usersDB[i])
+        console.log("juliaaaaan")
+        window.location.href = "../index.html"
+      }
+    }
+  }
+)
+  
+
+function createCurrentUser (user) {
+  localStorage.setItem("currentUser", JSON.stringify(user));
+} 
+
