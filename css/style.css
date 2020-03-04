@@ -32,9 +32,18 @@ body {
 }
 
 img {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 200px;
+	width: 250px;
+  
+  }
+
+#imagennav {
   margin-top: 10px;
   margin-left: 10px;
   width: 250px;
+
 }
 
 .bars {
@@ -438,6 +447,11 @@ h1.main, p.demos {
 }
 
 /*footer*/
+
+.imagenfooter{
+	width: 300px;
+	height: 400px;
+}
 
 
 /**/
