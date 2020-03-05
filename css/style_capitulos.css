@@ -25,7 +25,7 @@ breakpoint {
 
 body {
   position: relative;
-  background: url('../img/background.jpg') no-repeat center center fixed;
+  background: url(../img/background.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
 }
@@ -239,7 +239,7 @@ nav.visible li:last-child a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url("../img/imagenmapaportada.jpg	") no-repeat center center;
+  background: url(../img/imagenmapaportada.jpg) no-repeat center center;
 }
 
 h1 {

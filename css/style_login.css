@@ -25,10 +25,10 @@ breakpoint {
 
 body {
   position: relative;
-  background: url('/img/background.jpg') no-repeat center center fixed;
+  background: url(../img/background.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
-  height:60vmax;
+  height:70vmax;
 }
 
 img {
@@ -214,7 +214,7 @@ nav.visible li:last-child a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url(/img/imagenmapaportada.jpg) no-repeat center center fixed;
+  background: url(../img/imagenmapaportada.jpg) no-repeat center center fixed;
 }
 
 h1 {
@@ -453,7 +453,7 @@ h1.main, p.demos {
 	animation-delay: 18s;
 }
 .sp-container {
-  background-image: url(/img/imagenmapaportada.jpg);
+  background-image: url(../img/imagenmapaportada.jpg);
 	position: fixed;
 	top: 200px;
 	left: 0px;
@@ -471,7 +471,7 @@ h1.main, p.demos {
 	left: 0px;
 	top: 0px;
   z-index: 1000;
-  background-image: url(/img/imagenmapaportada.jpg);
+  background-image: url(../img/imagenmapaportada.jpg);
 }
 .sp-container h2 {
 	position: absolute;

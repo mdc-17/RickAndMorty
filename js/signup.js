@@ -91,7 +91,6 @@ logInButton.addEventListener('click', function (event){
     for (i = 0; i < usersDB.length; i++) {
       if (pswLogin.value === usersDB[i].password && nameLogin.value === usersDB[i].email) {
         createCurrentUser(usersDB[i])
-        console.log("juliaaaaan")
         window.location.href = "../index.html"
       }
     }
