@@ -150,8 +150,8 @@ function clickCapitulo() {
 clickCapitulo()
 
 function personajes(data) {  
-    let articlePersonajes = document.querySelector(".capitulos");
-    articlePersonajes.innerHTML = '<div><a href="../mapa.html"> <h1> VOLVER ATRAS </h1></a></div>';
+    let articlePersonajes = document.querySelector(".planetas");
+    articlePersonajes.innerHTML = '';
   data.residents.forEach(element => {
       fetch(element)
       .then(response => response.json())
@@ -163,7 +163,7 @@ function personajes(data) {
 
 function captipersonajes(data) {  
   let articlePersonajes = document.querySelector(".planetas");
-  articlePersonajes.innerHTML = '<div><a href="../capitulos.html"> <h1> VOLVER ATRAS </h1></a></div>';
+  articlePersonajes.innerHTML = '';
 data.characters.forEach(element => {
     fetch(element)
     .then(response => response.json())

@@ -25,9 +25,10 @@ breakpoint {
 
 body {
   position: relative;
-  background: url('../img/background.jpg') no-repeat center center fixed;
+  background: url(../img/background.jpg) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
+  height:60vmax;
 }
 
 img {
