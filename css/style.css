@@ -28,7 +28,6 @@ body {
   background: url('../img/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
-  height:100vmax;
 }
 
 img {
@@ -95,6 +94,8 @@ span::after {
   animation: bottom-bar 1s;
   animation-fill-mode: forwards;
 }
+
+/* Desplegable */
 
 
 /* Navbar Links CSS */
