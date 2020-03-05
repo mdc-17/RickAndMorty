@@ -23,6 +23,12 @@ breakpoint {
   }
 }
 
+.temporadas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 body {
   position: relative;
   background: url(../img/background.jpg) no-repeat center center fixed;
