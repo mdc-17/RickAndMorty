@@ -1,10 +1,11 @@
-@import url(//db.onlinewebfonts.com/c/d53e41de91ea8a14e5239fdb293b1dca?family=DPStick);
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "DPStick"; src: url(//db.onlinewebfonts.com/t/d53e41de91ea8a14e5239fdb293b1dca.eot);
+  font-family: 'Amatic SC';
 }
+
 
 breakpoint {
   max-width: 100%;
@@ -23,6 +24,21 @@ breakpoint {
   }
 }
 
+.border {
+	border: medium double #369;
+}
+
+h4 {
+    font-size: 30px;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+.resaltar2 {
+	font-size: 25px;
+}
+
+
 body {
   position: relative;
   background: url(../img/background.jpg) no-repeat center center fixed;
@@ -33,7 +49,6 @@ body {
 
 img {
 	margin-top: 10px;
-	margin-left: 10px;
 	margin-right: 200px;
 	width: 250px;
   
@@ -300,11 +315,17 @@ article a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	text-align: center;
 }
 
 .ciudadela {
 	height: 400px;
 	width: 700px;
+}
+
+.card-image {
+	width: 250px;
+
 }
 
 
