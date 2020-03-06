@@ -21,28 +21,29 @@ function creaPersonaje(personaje) {
   divPersonaje.innerHTML = `
   <div data="card header">
   <div class="card-image">
-    <img src="${personaje.image}" alt="${personaje.name}">
+    <img class="card-image" src="${personaje.image}" alt="${personaje.name}">
   </div>
+  <div class="border">
     <div class="card-nombre">
       <h2 class="nombre">${personaje.name}</h2>
     </div>
-  </div>
     <div class="card-status">
-      <h4>STATUS</h4>
-      <p>${personaje.name}</p>
+      <h4 class="resaltar">STATUS</h4>
+      <p class="resaltar2">${personaje.status}</p>
     </div>
     <div class="card-species">
-      <h4>SPECIE</h4>
-      <p>${personaje.species}</p>
+      <h4 class="resaltar">SPECIE</h4>
+      <p class="resaltar2">${personaje.species}</p>
     </div>
     <div class="card-gender">
-      <h4>GENDER</h4>
-      <p>${personaje.gender}</p>
+      <h4 class="resaltar">GENDER</h4>
+      <p class="resaltar2">${personaje.gender}</p>
     </div>
     <div class="card-location">
-      <h4>LOCATION</h4>
-      <p>${personaje.location.name}</p>
+      <h4 class="resaltar">LOCATION</h4>
+      <p class="resaltar2">${personaje.location.name}</p>
     </div>
+  </div>
   </div>`;
   articlePersonajes.appendChild(divPersonaje);
   }
