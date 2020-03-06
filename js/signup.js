@@ -78,6 +78,7 @@ function createUser (name, email, password) {
       usersDB = [newUser]
   }
   localStorage.setItem('users', JSON.stringify(usersDB));
+  window.location.href = "../login.html";
 } 
 
 
